@@ -1,0 +1,96 @@
+/* ************ Slider ************************** */
+.slider-next{
+    animation: next 2s;
+    position: absolute;
+}
+
+.slider-previous {
+    animation: previous 2s;
+    position: absolute;
+}
+
+
+@keyframes next {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes previous {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.hidde-previus-slider {
+    opacity: 0;
+    animation: hidde-previus-slider 2s;
+    position: absolute;
+    transform: translateX(-100%);
+}
+
+.hidde-next-slider{
+    opacity: 0;
+    animation: hidde-next-slider 2s;
+    position: absolute;
+    transform: translateX(100%);
+}
+
+@keyframes hidde-previus-slider {
+    0%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    60%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes hidde-next-slider {
+    0%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    60%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+
+
+/* *************************** Configurations ************************************* */
+
+.container-configurations{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    font-size: 25px;
+    z-index: 500000;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.container-configurations i {
+    cursor: pointer;
+}
+
+.configurations{
+    padding: 20px;
+}
+
+
