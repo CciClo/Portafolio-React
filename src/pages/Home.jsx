@@ -6,8 +6,8 @@ const Home = () => {
             <div className='home-description' >
 
                 <h2>Front-End Web Developer</h2>
-                <h1>Oscar Tandioy</h1>
-                <p>With knowledge in HTML, CSS, Java Script and React. I am a person who likes to constantly reinvent myself in search of achieving better performance</p>
+                <h1>OSCAR TANDIOY</h1>
+                <p>With knowledge in HTML, CSS, Java Script and React. I am a person who likes to constantly reinvent myself in search of achieving better performance.</p>
                 <p>
                     My profile is oriented towards achievement, proactivity, problem solving and a spirit of constant learning. I have found a great passion for web development 
                     and the implementation of applications that seek to meet basic social needs.

@@ -2,9 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+
+
+
+
+@font-face {
+    font-family: JumpingFlash;
+    src: url('./font/JumpingFlash.ttf');
+}
+
+@font-face{
+    font-family: Megalopolis;
+    src: url('./font/Megalopolis.ttf');
+}
+
+
+
+
+
+
+
+
 :root{
     --background-color-fond: #0d47a1;
-    --main-font-color: white;
+    --main-font-color: black;
     --secundary-color-letter:rgb(238, 238, 238);
     --third-color-of-letters: rgb(219, 219, 219);
     --fourth-color-of-letters: rgb(219, 219, 219);
@@ -49,8 +70,8 @@ body{
 }
 
 h1{
-    font-family: 'Rubik Spray Paint', cursive;
-    font-weight:normal;
+    font-family: Megalopolis;
+    /* font-weight:normal; */
 }
 
 @media (max-width: 600px) {
@@ -106,17 +127,17 @@ h1{
 
 
 .page-container h2 {
-    font-size: 35px;
-    margin-bottom: 7vw;
+    font-size: 30px;
+    margin-bottom: 4vw;
     text-align: center;
     color: var(--main-font-color);
-    font-family: 'Rubik 40s Fade', cursive;
+    font-family: JumpingFlash;
 }
 
 
 @media (max-width: 600px) {
     .page-container h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
@@ -190,7 +211,7 @@ h1{
 
 @media (max-width: 600px) {
     .scroll-container {
-        height: 95%;
+        height: 90%;
         grid-template-columns: 1fr;
         padding: 10px 10px 40px 10px;
     }
@@ -256,6 +277,7 @@ h1{
     font-weight:lighter;
     font-family: 'Rubik Wet Paint', cursive;
     color: var(--secundary-color-letter);
+    letter-spacing: 3px;
 }
 
 .back {

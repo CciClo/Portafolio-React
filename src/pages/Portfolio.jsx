@@ -33,9 +33,6 @@ const Portfolio = () => {
 
 
             </ul>
-            <a href="https://www.linkedin.com/in/oscar-tandioy-1660b6253" target='_blank' style={{  position: 'absolute', right:'60px', zIndex:'200' }} >
-                <i className="fa-brands fa-linkedin icon-home"></i>
-            </a>
         </div>
     );
 };
