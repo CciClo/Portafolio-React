@@ -134,8 +134,6 @@ const SliderShow = ({
             }
         }
 
-        console.log(animationSlider)
-
 
     }, [indexSlide, animationSlider]);
 

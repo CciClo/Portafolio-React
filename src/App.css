@@ -16,7 +16,10 @@
     src: url('./font/Megalopolis.ttf');
 }
 
-
+@font-face {
+    font-family: bBackAlley;
+    src: url('./font/bBackAlley.ttf');
+}
 
 
 
@@ -378,6 +381,7 @@ a {
 
 .education-and-experience h3 {
     font-size: 30px;
+    font-family: bBackAlley;
 }
 
 @media (max-width: 600px) {
