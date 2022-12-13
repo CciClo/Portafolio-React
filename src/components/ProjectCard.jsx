@@ -27,7 +27,8 @@ const ProjectCard = ({project}) => {
 
             <a href={project.online} target="_blank" > 
                 <div className='link-card' >
-                    See the page
+                    Ver la página
+                    {/* See the page */}
                 </div>
             </a>
             

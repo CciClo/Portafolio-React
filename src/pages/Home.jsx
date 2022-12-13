@@ -5,12 +5,12 @@ const Home = () => {
         <div className='page-container home' >
             <div className='home-description' >
 
-                <h2>Front-End Web Developer</h2>
+                <h2>Desarrollador Web Front-End</h2>
                 <h1>OSCAR TANDIOY</h1>
-                <p>With knowledge in HTML, CSS, Java Script and React. I am a person who likes to constantly reinvent myself in search of achieving better performance.</p>
+                <p>Con conocimientos en HTML, CSS, Java Script y React. Soy una persona a la que le gusta reinventarme constantemente en busca de lograr un mejor rendimiento.</p>
                 <p>
-                    My profile is oriented towards achievement, proactivity, problem solving and a spirit of constant learning. I have found a great passion for web development 
-                    and the implementation of applications that seek to meet basic social needs.
+                    Mi perfil está orientado hacia el logro, la proactividad, la resolución de problemas y un espíritu de aprendizaje constante. He encontrado una gran pasión por el 
+                    desarrollo web y la implementación de aplicaciones que buscan satisfacer necesidades sociales básicas.
                 </p>
 
             </div>

@@ -13,7 +13,7 @@ const Portfolio = () => {
 
     return (
         <div className='page-container portfolio' >
-            <h2>Portfolio</h2>
+            <h2>Portafolio</h2>
             <ul className='scroll-container' >
                 {
                     projects?.map(project => (
