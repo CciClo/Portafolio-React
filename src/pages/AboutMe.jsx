@@ -18,7 +18,7 @@ const AboutMe = () => {
                 <div className='education-and-experience' >
 
                     <div>
-                        <h3>Education</h3>
+                        <h3>Educación</h3>
                         <div className='child-education-experience' >
 
                             <div className='date-container' >
