@@ -8,6 +8,17 @@ import Home from './pages/Home'
 import Configuration from './components/Configuration'
 
 function App() {
+
+  useEffect(() => {
+    window.onload = () => {
+      // console.log( document.body.offsetHeight)
+      
+      if ( window.innerWidth <= 600 ){
+        window.scrollY = 50
+      }
+    }
+  }, [])
+
   return (
     <div className="App">
 
