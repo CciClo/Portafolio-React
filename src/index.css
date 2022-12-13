@@ -75,7 +75,7 @@
 /* *************************** Configurations ************************************* */
 
 .container-configurations{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     margin: 20px;
@@ -83,6 +83,13 @@
     z-index: 500000;
     display: grid;
     grid-template-columns: 1fr;
+}
+
+@media (max-width: 600px) {
+    .container-configurations{
+        bottom: 0;
+        top: auto;
+    }
 }
 
 .container-configurations i {
@@ -93,4 +100,12 @@
     padding: 20px;
 }
 
+@media (max-width: 600px) {
+    .configurations {
+        position: absolute;
+        top: -600%;
+        left: 30px;
+        
+    }
+}
 
