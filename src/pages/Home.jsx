@@ -18,28 +18,32 @@ const Home = () => {
             <div className='home-contacts' >
 
                 <div>
-                    <a href="https://www.linkedin.com/in/oscar-tandioy-1660b6253" target='linkedin' >
+                    <a href="https://www.linkedin.com/in/oscar-tandioy-1660b6253" target='linkedin' aria-label='linkedin' >
                         <i className="fa-brands fa-linkedin icon-home"></i>
                     </a>
                     
                 </div>
 
                 <div>
-                    <a href="https://github.com/CciClo" target='github'>
+                    <a href="https://github.com/CciClo" target='github' aria-label='github'>
                         <i className="fa-brands fa-square-github icon-home"></i>
                     </a>
                     
                 </div>
 
                 <div>
-                    <a href="mailto:tato.tandioy@gmail.com" target='email' >
+                    <a href="mailto:tato.tandioy@gmail.com" target='email' aria-label='email' >
                         <i className="fa-regular fa-envelope icon-home"></i>
                     </a>
                     
                 </div>
                 
                 <div>
-                    <a href="https://docs.google.com/document/d/1hgiZOw6jsfei4IUh5wXCcQOIsBcBJ5TndNBe3xSotQ8/edit?usp=sharing" target='cv'>
+                    <a 
+                        href="https://docs.google.com/document/d/1hgiZOw6jsfei4IUh5wXCcQOIsBcBJ5TndNBe3xSotQ8/edit?usp=sharing" 
+                        target='cv'
+                        aria-label='Download cv'
+                    >
                         <i className="fa-solid fa-cloud-arrow-down icon-home"></i>
                     </a>
                     <span>Download CV</span>
