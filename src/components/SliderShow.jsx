@@ -272,7 +272,7 @@ const SideControlsBottom = styled.div`
 	pointer-events: none;
 `;
 
-const Boton = styled.button`
+const Boton = styled.div`
     width: 50px;
 	height: 100%;
 	pointer-events: all;
