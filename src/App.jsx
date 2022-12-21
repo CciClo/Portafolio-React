@@ -12,6 +12,7 @@ function App() {
 
   const [isShowLoader, setIsShowLoader] = useState(true);
 
+  /*
   useEffect(() => {
     // window.onload = () => {
     //   // console.log( document.body.offsetHeight)
@@ -25,7 +26,12 @@ function App() {
     //   setIsShowLoader(false)
     // }, 2000)
 
-  }, [])
+  }, []);
+  */
+
+  window.onload = () => {
+    setIsShowLoader(false);
+  };
 
   return (
     <div className="App">
