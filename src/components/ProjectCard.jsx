@@ -13,7 +13,7 @@ const ProjectCard = ({project}) => {
                 <div>
                     {
                         project.using.map(usin => (
-                            <h6 key={usin} >{usin}</h6>
+                            <p key={usin} >{usin}</p>
                         ))
                     }
                 </div>

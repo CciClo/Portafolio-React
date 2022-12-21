@@ -5,7 +5,7 @@ const Home = () => {
         <div className='page-container home' >
             <div className='home-description' >
 
-                <h2>Desarrollador Web <br /> Front-End</h2>
+                <h2>Desarrollador Web Front-End</h2>
                 <h1>OSCAR TANDIOY</h1>
                 <p>Con conocimientos en HTML, CSS, Java Script y React. Soy una persona a la que le gusta reinventarme constantemente en busca de lograr un mejor rendimiento.</p>
                 <p>
