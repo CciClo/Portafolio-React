@@ -19,11 +19,8 @@ function App() {
       if ( window.innerWidth <= 600 ){
         window.scrollY = 50
       }
-    }
-
-    window.addEventListener('load', (e) => {
       setIsShowLoader(false)
-    })
+    }
 
   }, [])
 
