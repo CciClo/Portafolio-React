@@ -12,22 +12,21 @@ function App() {
 
   const [isShowLoader, setIsShowLoader] = useState(true);
 
-  /*
+  
   useEffect(() => {
     // window.onload = () => {
     //   // console.log( document.body.offsetHeight)
     // }
     
-    document.body.onload = ( ) => {
-      setIsShowLoader(false)
-    }
-
-    // setTimeout(() => {
+    // document.body.onload = ( ) => {
     //   setIsShowLoader(false)
-    // }, 2000)
+    // }
+    setTimeout(() => {
+      setIsShowLoader(false)
+    }, 2000)
 
   }, []);
-  */
+  
 
   window.onload = () => {
     setIsShowLoader(false);
