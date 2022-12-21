@@ -21,15 +21,15 @@ const Portfolio = () => {
                     ))
                 }
 
-                <div style={{display:'flex', gap:'10px'}} >
-                    <a href="https://github.com/CciClo" target='_blank'>
+                <li style={{display:'flex', gap:'10px'}} >
+                    <a href="https://github.com/CciClo" target='github'>
                         <i className="fa-brands fa-square-github icon-home"></i>
                     </a>
 
-                    <a href="mailto:tato.tandioy@gmail.com">
+                    <a href="mailto:tato.tandioy@gmail.com" target='email'>
                         <i className="fa-regular fa-envelope icon-home"></i>
                     </a>
-                </div>
+                </li>
 
 
             </ul>

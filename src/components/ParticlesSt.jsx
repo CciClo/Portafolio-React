@@ -1,17 +1,20 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import Particles from 'react-particles';
 import { loadFull } from 'tsparticles';
-import Part from './particlesjs-config (1).json'
+import Part from './particlesjs-config (2).json'
+import Img from '../assets/react.svg'
 
 const ParticlesSt = () => {
 
-  const [ particles, setParticles] = useState()
+  const [particles, setParticles] = useState()
 
+  useEffect(() => {
+    // setParticles(Part)
+    // Part.particles.shape.image.src = Img
+    // Part.particles.color.value = 'white'
+  }, [])
 
   const particlesInit = useCallback(async engine => {
-    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
     await loadFull(engine);
   }, []);
 
@@ -19,13 +22,16 @@ const ParticlesSt = () => {
     await container;
   }, []);
 
+
   return (
-    <Particles
-      id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
-      options={Part}
-    />
+    <>
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
+        options={Part}
+      />
+    </>
   );
 };
 

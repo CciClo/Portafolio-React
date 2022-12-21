@@ -6,8 +6,11 @@ import AboutMe from './pages/AboutMe'
 import Portfolio from './pages/Portfolio'
 import Home from './pages/Home'
 import Configuration from './components/Configuration'
+import LoaderPage from './components/LoaderPage'
 
 function App() {
+
+  const [ isShowLoader, setIsShowLoader] = useState(true);
 
   useEffect(() => {
     window.onload = () => {
@@ -17,11 +20,18 @@ function App() {
         window.scrollY = 50
       }
     }
+
+    window.addEventListener('load', (e) => {
+      setIsShowLoader(false)
+    })
+
   }, [])
 
   return (
     <div className="App">
-
+      {isShowLoader &&
+        <LoaderPage />
+      }
       <Configuration />
 
       <SliderShow sideControls='true; outside; bgc-rgba(0,0,0,0)' controlsBelow="true; outside; bgc-transparent; brb-50%; wtb-15px; htb-15px ">

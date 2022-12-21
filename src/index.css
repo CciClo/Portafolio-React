@@ -94,6 +94,7 @@
 
 .container-configurations i {
     cursor: pointer;
+    text-shadow: 0 0 8px white;
 }
 
 .configurations{
@@ -107,4 +108,3 @@
         left: 30px;
     }
 }
-

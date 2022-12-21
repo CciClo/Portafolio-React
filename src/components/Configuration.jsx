@@ -17,7 +17,7 @@ const Configuration = () => {
 
     useEffect(() => {
 
-        Appcss.style.setProperty('--background-color-fond',isNightMode ? '#0d47a1':'rgb(220, 220, 220)')
+        Appcss.style.setProperty('--background-color-fond',isNightMode ? /*'#0d47a1'*/ 'rgb(2, 35, 112)' :'rgb(220, 220, 220)')
         Appcss.style.setProperty('--main-font-color',isNightMode ? 'white':'black')
         Appcss.style.setProperty('--secundary-color-letter',isNightMode ? 'rgb(238, 238, 238)':'rgb(39, 39, 39)')
         Appcss.style.setProperty('--third-color-of-letters',isNightMode ? 'rgb(219, 219, 219)':'black')

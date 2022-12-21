@@ -19,13 +19,13 @@ const ProjectCard = ({project}) => {
                 </div>
             </div>
 
-            <a href={project.github} target="_blank" >
+            <a href={project.github} target="github" >
                 <div className='link-card' >
                     GitHub
                 </div>
             </a>
 
-            <a href={project.online} target="_blank" > 
+            <a href={project.online} target="page-web" > 
                 <div className='link-card' >
                     Ver la página
                     {/* See the page */}
