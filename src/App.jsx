@@ -10,19 +10,19 @@ import LoaderPage from './components/LoaderPage'
 
 function App() {
 
-  const [ isShowLoader, setIsShowLoader] = useState(true);
+  const [isShowLoader, setIsShowLoader] = useState(true);
 
   useEffect(() => {
-    window.onload = () => {
-      // console.log( document.body.offsetHeight)
-      
-      if ( window.innerWidth <= 600 ){
-        window.scrollY = 50
-      }
-      setIsShowLoader(false)
-    }
+    // window.onload = () => {
+    //   // console.log( document.body.offsetHeight)
+    //   setIsShowLoader(false)
+    // }
 
     setTimeout(() => {
+
+      if (window.innerWidth <= 600) {
+        window.scrollY = 50
+      }
       setIsShowLoader(false)
     }, 1000)
 
@@ -40,16 +40,21 @@ function App() {
           <Home />
         </Slide>
 
-        <Slide className='hidde-next-slider' >
-          <Portfolio/>
-        </Slide>
+        {!isShowLoader &&
+          <Slide className='hidde-next-slider hidde' >
+            <Portfolio />
+          </Slide>
+        }
 
-        <Slide className='hidde-next-slider' >
-          <AboutMe/>
-        </Slide>
+        {!isShowLoader &&
+          <Slide className='hidde-next-slider hidde' >
+            <AboutMe />
+          </Slide>
+        }
+
 
       </SliderShow>
-      
+
     </div>
   )
 }

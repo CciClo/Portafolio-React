@@ -79,6 +79,7 @@ const SliderShow = ({
     const nextSlider = (prev, nex) => {
         slideshow.current.children[prev]?.classList.add('hidde-previus-slider');
         slideshow.current.children[nex]?.classList.remove('hidde-next-slider');
+        slideshow.current.children[nex]?.classList.remove('hidde');
         slideshow.current.children[nex]?.classList.remove('hidde-previus-slider');
 
         slideshow.current.children[nex]?.classList.remove('slider-previous');
@@ -90,6 +91,7 @@ const SliderShow = ({
 
         slideshow.current.children[prev]?.classList.add('hidde-next-slider');
         slideshow.current.children[nex]?.classList.remove('hidde-next-slider');
+        slideshow.current.children[nex]?.classList.remove('hidde');
         slideshow.current.children[nex]?.classList.remove('hidde-previus-slider');
 
         slideshow.current.children[nex]?.classList.remove('slider-previous');

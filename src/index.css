@@ -108,3 +108,8 @@
         left: 30px;
     }
 }
+
+.hidde {
+    animation: none;
+    opacity: 0;
+}
