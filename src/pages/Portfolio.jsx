@@ -22,11 +22,11 @@ const Portfolio = () => {
                 }
 
                 <li style={{display:'flex', gap:'10px'}} >
-                    <a href="https://github.com/CciClo" target='github'>
+                    <a href="https://github.com/CciClo" target='github' aria-label='github' >
                         <i className="fa-brands fa-square-github icon-home"></i>
                     </a>
 
-                    <a href="mailto:tato.tandioy@gmail.com" target='email'>
+                    <a href="mailto:tato.tandioy@gmail.com" target='email' aria-label='email' >
                         <i className="fa-regular fa-envelope icon-home"></i>
                     </a>
                 </li>
