@@ -21,9 +21,9 @@ function App() {
       setIsShowLoader(false)
     }
 
-    setTimeout(() => {
-      setIsShowLoader(false)
-    }, 2000)
+    // setTimeout(() => {
+    //   setIsShowLoader(false)
+    // }, 2000)
 
   }, [])
 
