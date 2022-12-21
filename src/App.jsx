@@ -13,16 +13,12 @@ function App() {
   const [isShowLoader, setIsShowLoader] = useState(true);
 
   useEffect(() => {
-    // window.onload = () => {
-    //   // console.log( document.body.offsetHeight)
-    //   setIsShowLoader(false)
-    // }
+    window.onload = () => {
+      // console.log( document.body.offsetHeight)
+      setIsShowLoader(false)
+    }
 
     setTimeout(() => {
-
-      if (window.innerWidth <= 600) {
-        window.scrollY = 50
-      }
       setIsShowLoader(false)
     }, 1000)
 
