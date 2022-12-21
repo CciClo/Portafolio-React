@@ -13,14 +13,17 @@ function App() {
   const [isShowLoader, setIsShowLoader] = useState(true);
 
   useEffect(() => {
-    window.onload = () => {
-      // console.log( document.body.offsetHeight)
+    // window.onload = () => {
+    //   // console.log( document.body.offsetHeight)
+    // }
+    
+    document.body.onload = ( ) => {
       setIsShowLoader(false)
     }
 
     setTimeout(() => {
       setIsShowLoader(false)
-    }, 1000)
+    }, 2000)
 
   }, [])
 
