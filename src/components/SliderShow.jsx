@@ -272,7 +272,7 @@ const SideControlsBottom = styled.div`
 	pointer-events: none;
 `;
 
-const Boton = styled.div`
+const Boton = styled.button`
     width: 50px;
 	height: 100%;
 	pointer-events: all;
@@ -300,7 +300,7 @@ const BottomControlContainer = styled.div`
     gap: 20px;
 `;
 
-const BottomButton = styled.button`
+const BottomButton = styled.div`
     border: none;
     cursor: pointer;
 `;
