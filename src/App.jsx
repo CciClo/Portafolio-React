@@ -24,7 +24,7 @@ function App() {
 
     setTimeout(() => {
       setIsShowLoader(false)
-    }, 3000)
+    }, 2000)
 
   }, [])
 
