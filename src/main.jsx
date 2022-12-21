@@ -10,10 +10,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <Provider store={store}>
-            {document.body.offsetWidth >= 600 &&
-                <ParticlesSt />
-            }
-             <App />
+            
+            <ParticlesSt />
+    
+            <App />
+            
         </Provider>
     </React.StrictMode>
 );
